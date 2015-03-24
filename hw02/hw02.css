@@ -1,5 +1,5 @@
 body {
-	background-image:url(paisley.png); /*body背景圖片*/
+	background-image:url(http://tzuyulien.github.io/0310_101102034_course/hw02/paisley.png); /*body背景圖片*/
 	background-repeat: repeat; /*body背景圖片重複*/
 	font-size:20px;
 }
@@ -8,7 +8,7 @@ body {
 	width:800px;
 	height:90px;
 	padding-left:10px; /*左邊留白10*/
-	border-image: url(square.png) 10 10 round; /*Header邊框圖片*/
+	border-image: url(http://tzuyulien.github.io/0310_101102034_course/hw02/square.png) 10 10 round; /*Header邊框圖片*/
 }
 #‎Wrapper {
 	margin:0 auto;
@@ -37,18 +37,18 @@ body {
 #‎animation { /*動畫ID*/
 	width: 100px;
 	height: 30px;
-	background-image:url(food.png);
+	background-image:url(http://tzuyulien.github.io/0310_101102034_course/hw02/food.png);
 	position: relative;
 	-webkit-animation-name: example; 
 	-webkit-animation-duration: 4s; /*-webkit-: 相容於 Chrome, Safari, Opera */
 	-webkit-animation-iteration-count: 3; 
 }
 @-webkit-keyframes example {
-	0% {background-image:url(food.png); left:50px; top:0px;} /*0.原點*/
-	25% {background-image:url(food.png); left:80px; top:0px;} /*1.右移至80*/
-	50% {background-image:url(food.png); left:80px; top:10px;} /*2.下移至100*/
-	75% {background-image:url(food.png); left:50px; top:10px;} /*3.左移至50*/
-	100% {background-image:url(food.png); left:50px; top:0px;} /*4.上移至原點*/
+	0% {background-image:url(http://tzuyulien.github.io/0310_101102034_course/hw02/food.png); left:50px; top:0px;} /*0.原點*/
+	25% {background-image:url(http://tzuyulien.github.io/0310_101102034_course/hw02/food.png); left:80px; top:0px;} /*1.右移至80*/
+	50% {background-image:url(http://tzuyulien.github.io/0310_101102034_course/hw02/food.png); left:80px; top:10px;} /*2.下移至100*/
+	75% {background-image:url(http://tzuyulien.github.io/0310_101102034_course/hw02/food.png); left:50px; top:10px;} /*3.左移至50*/
+	100% {background-image:url(http://tzuyulien.github.io/0310_101102034_course/hw02/food.png); left:50px; top:0px;} /*4.上移至原點*/
 }
 h1 { /*大標*/
 	font-size:30px;

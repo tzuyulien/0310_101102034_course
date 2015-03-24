@@ -1,0 +1,80 @@
+body {
+	background-image:url(paisley.png);	/*body背景圖片*/
+	background-repeat: repeat;	/*body背景圖片重複*/
+	font-size:20px;
+}
+
+#Header {
+	margin:0 auto;	/*邊界自動置中*/
+	width:800px;
+	height:90px;
+	padding-left:10px; /*左邊留白10*/
+	border-image: url(square.png) 10 10 round;	/*Header邊框圖片*/
+	
+}
+
+#Wrapper {
+	margin:0 auto;
+	width:800px;
+	padding:0 10px;
+
+	//overflow:auto;
+}
+
+#Content {
+	float:left;	/*Content靠左貼齊*/
+	width:400px;	/*Content寬度*/
+}
+
+#Side {
+	float:left;
+	margin-left:20px;	/*邊界左邊留白20px*/
+	width:360px;		/*Side寬度*/
+}
+
+#Footer {
+	clear:both;
+	_height:1%;
+	margin-top:10;
+	width:800px;
+	height:80px;
+	text-align:center;	/*文字置中*/
+	border-style:double;
+}
+
+#animation {			/*動畫ID*/
+	width: 100px;
+	height: 30px;
+	background-image:url(food.png);
+	position: relative;
+	-webkit-animation-name: example; 
+	-webkit-animation-duration: 4s; 		/*-webkit-: 相容於 Chrome, Safari, Opera */
+	-webkit-animation-iteration-count: 3; 
+}
+
+
+@-webkit-keyframes example {
+	0%   {background-image:url(food.png); left:50px; top:0px;}		/*0.原點*/
+	25%  {background-image:url(food.png); left:80px; top:0px;}		/*1.右移至80*/
+	50%  {background-image:url(food.png); left:80px; top:10px;}		/*2.下移至100*/
+	75%  {background-image:url(food.png); left:50px; top:10px;}		/*3.左移至50*/
+	100% {background-image:url(food.png); left:50px; top:0px;}		/*4.上移至原點*/
+}
+
+h1 {		/*大標*/
+	font-size:30px;
+	font-family:Microsoft JhengHei;  /*微軟正黑體*/
+  }
+
+h2{		/*小標藍字*/
+	font-size:22px;
+	color:blue;	
+	font-family:Microsoft JhengHei;  /*微軟正黑體*/
+  }
+
+h3 {		/*小標紅字*/
+	font-size:22px;
+	color:red;	
+}
+
+

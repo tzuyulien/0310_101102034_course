@@ -3,6 +3,7 @@ body {
 	background-repeat: repeat; /*body背景圖片重複*/
 	font-size:20px;
 }
+
 #‎Header {
 	margin:0 auto; /*邊界自動置中*/
 	width:800px;

@@ -4,12 +4,13 @@ body {
 	background-repeat: repeat; /*body背景圖片重複*/
 	font-size:20px;
 }
-‪#Header‬ {
+
+‪#Header {
 	margin:0 auto; /*邊界自動置中*/
-	width:800px;
+	width:600px;
 	height:90px;
 	padding-left:10px; /*左邊留白10*/
-	border-image: url(http://tzuyulien.github.io/0310_101102034_course/hw02/square.png) 10 10 round; /*Header邊框圖片*/
+	border-image: url(http://tzuyulien.github.io/0310_101102034_course/hw02/square.png)10 10 round; /*Header邊框圖片*/
 }
 #Wrapper {
 	margin:0 auto;
@@ -21,8 +22,8 @@ body {
 	float:left; /*Content靠左貼齊*/
 	width:400px; /*Content寬度*/
 }
-#Sider {
-	float:left;
+#Side {
+	float :left;
 	margin-left:20px; /*邊界左邊留白20px*/
 	width:360px; /*Side寬度*/
 }
@@ -30,7 +31,7 @@ body {
 	clear:both;
 	margin-top:10;
 	width:800px;
-	height:80px;
+	height:200px;
 	text-align:center; /*文字置中*/
 	border-style:double;
 }
@@ -50,6 +51,7 @@ body {
 	75% {background-image:url(http://tzuyulien.github.io/0310_101102034_course/hw02/food.png); left:50px; top:10px;} /*3.左移至50*/
 	100% {background-image:url(http://tzuyulien.github.io/0310_101102034_course/hw02/food.png); left:50px; top:0px;} /*4.上移至原點*/
 }
+
 h1 { /*大標*/
 	font-size:30px;
 	font-family:Microsoft JhengHei; /*微軟正黑體*/

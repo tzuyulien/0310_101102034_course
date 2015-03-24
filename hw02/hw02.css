@@ -15,7 +15,6 @@ body {
 	margin:0 auto;
 	width:800px;
 	padding:0 10px;
-	//overflow:auto;
 }
 #‎Content {
 	float:left; /*Content靠左貼齊*/
@@ -28,7 +27,6 @@ body {
 }
 #‎Footer {
 	clear:both;
-	_height:1%;
 	margin-top:10;
 	width:800px;
 	height:80px;

@@ -50,7 +50,8 @@ body {
 #animation {			/*動畫ID*/
 	width: 100px;
 	height: 30px;
-	background-image:url(food.png);
+	/*background-image:url(food.png);*/
+	background-color:rgb(244,189,177);
 	position: relative;
 	-webkit-animation-name: example; 
 	-webkit-animation-duration: 4s; 		/*-webkit-: 相容於 Chrome, Safari, Opera */
@@ -74,7 +75,8 @@ h1 {		/*大標*/
   }
 
 h2{		/*小標藍字*/
-	font-size:22px;
+	font-size:18px;
+	line-height:22px;
 	color:rgb(244,189,177);	
 	font-family:Microsoft JhengHei;  /*微軟正黑體*/
   }

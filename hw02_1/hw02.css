@@ -1,5 +1,5 @@
 body {
-	background-image:url(paisley.png);	/*body背景圖片*/
+	background-image:url(IMG_0538.JPG);	/*body背景圖片*/
 	background-repeat: repeat;	/*body背景圖片重複*/
 	font-size:12px;
 	line-height:20px;
@@ -7,6 +7,7 @@ body {
 }
 
 #Header {
+	background-color:rgb(50,50,50);
 	margin:0 auto;	/*邊界自動置中*/
 	width:800px;
 	height:90px;

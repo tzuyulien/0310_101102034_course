@@ -7,8 +7,10 @@ body {
 }
 
 #Header {
+	
 	background-color:rgb(50,50,50);
 	margin:0 auto;	/*邊界自動置中*/
+	margin-top:20px;
 	width:800px;
 	height:90px;
 	padding-left:10px; /*左邊留白10*/

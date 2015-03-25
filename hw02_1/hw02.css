@@ -12,7 +12,9 @@ body {
 	width:800px;
 	height:90px;
 	padding-left:10px; /*左邊留白10*/
-	border-image: url(square.png) 20 20 round;	/*Header邊框圖片*/
+	/*border-image: url(square.png) 20 20 round;	Header邊框圖片*/
+	border-color:white;
+	
 	
 }
 
@@ -73,7 +75,7 @@ h1 {		/*大標*/
 
 h2{		/*小標藍字*/
 	font-size:22px;
-	color:gray;	
+	color:rgb(244,189,177);	
 	font-family:Microsoft JhengHei;  /*微軟正黑體*/
   }
 

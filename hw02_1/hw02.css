@@ -1,7 +1,8 @@
 body {
 	background-image:url(IMG_0538.JPG);	/*body背景圖片*/
+	margin:0 auto;
 	position:absolute;
-	/*background-repeat: repeat;	/*body背景圖片重複*/
+	background-repeat: repeat;	/*body背景圖片重複*/
 	font-size:12px;
 	line-height:20px;
 	color:white;

@@ -3,7 +3,7 @@ body {
 	background-repeat: repeat;	/*body背景圖片重複*/
 	font-size:12px;
 	line-height:20px;
-	color:(100,100,100);
+	color:white;
 }
 
 #Header {
@@ -25,7 +25,7 @@ body {
 }
 
 #Content {
-	background-color:rgba(256,256,256,3);
+	/*background-color:rgba(256,256,256,3);*/
 	float:left;	/*Content靠左貼齊*/
 	width:400px;	/*Content寬度*/
 }

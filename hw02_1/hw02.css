@@ -60,11 +60,11 @@ body {
 
 
 @-webkit-keyframes example {
-	0%   {background-image:url(food.png); left:50px; top:10px;}		/*0.原點*/
-	25%  {background-image:url(food.png); left:80px; top:10px;}		/*1.右移至80*/
-	50%  {background-image:url(food.png); left:80px; top:10px;}		/*2.下移至100*/
-	75%  {background-image:url(food.png); left:50px; top:10px;}		/*3.左移至50*/
-	100% {background-image:url(food.png); left:50px; top:10px;}		/*4.上移至原點*/
+	0%   {background-color:rgb(244,189,177); left:50px; top:10px;}		/*0.原點*/
+	25%  {background-color:rgb(244,189,177); left:80px; top:10px;}		/*1.右移至80*/
+	50%  {background-color:rgb(244,189,177); left:80px; top:10px;}		/*2.下移至100*/
+	75%  {background-color:rgb(244,189,177); left:50px; top:10px;}		/*3.左移至50*/
+	100% {background-color:rgb(244,189,177); left:50px; top:10px;}		/*4.上移至原點*/
 }
 
 h1 {		/*大標*/
@@ -83,7 +83,7 @@ h2{		/*小標藍字*/
 
 h3 {		/*小標紅字*/
 	font-size:18px;
-	color:red;	
+	color:rgb(224,107,112);	
 }
 
 

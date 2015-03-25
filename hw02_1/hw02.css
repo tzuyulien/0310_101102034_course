@@ -71,7 +71,7 @@ body {
 }
 
 h1 {		/*大標*/
-	margin-top:30px;
+	line-top:30px;
 	text-align:center;
 	font-size:30px;
 	font-family:Microsoft JhengHei;  /*微軟正黑體*/

@@ -12,7 +12,7 @@ body {
 	width:800px;
 	height:90px;
 	padding-left:10px; /*左邊留白10*/
-	border-image: url(square.png) 10 10 round;	/*Header邊框圖片*/
+	border-image: url(square.png) 20 20 round;	/*Header邊框圖片*/
 	
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 #Content {
-	background-color:rgba(256,256,256,30);
+	background-color:rgba(256,256,256,3);
 	float:left;	/*Content靠左貼齊*/
 	width:400px;	/*Content寬度*/
 }

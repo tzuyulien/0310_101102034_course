@@ -10,7 +10,8 @@ body {
 
 #Header {
 	
-	background-color:rgba(50,50,50,50);
+	background-color:rgba(43,68,94);
+	filter:alpha(opacity=50);
 	margin:0 auto;	/*邊界自動置中*/
 	width:800px;
 	height:90px;

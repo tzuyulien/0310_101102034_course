@@ -18,15 +18,28 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
 
-          <style>
+          <style type="text/css">
+            #header{height: 120px; background: #fcb8ae}
+            #footer{height: 80px; background: #fcb8ae}
+            #wrap{
+              min-height: 100%;
+              height: auto;
+              margin: 0 auto -60px;
+              padding: 0 0 60px;
+            }
+
           body{
+            height: 100%;
             background-attachment: fixed;
-            background-repeat: no-repeat;
+            background-repeat: repeat;
             background-position:left top;
-            background-image: url(IMG_0538.JPG);
-            background-color: #ccc;
+            background-image: url(flora.png);
+            background-color: #fff;
           } 
-          #dbody{width:350px; border:solid 2px #fff;}
+           
+
+
+         /* #dbody{width:350px; border:solid 2px #fff;}*/
           </style>
         </head>
 
@@ -34,6 +47,11 @@
 
 
         <body>
+          <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+          </ul>
           <div id="header">
             <div class="container" style"border:solid 1px #000000">
               <h1>課程資訊<h1>
@@ -80,12 +98,15 @@
                   <h3>參考書目 Textbook & references</h3>
                   <h3>（為維護智慧財產權，請務必使用正版書籍）</h3>
                   限學程同學方得修習。
+                  <br>
+                  <br>
 
 
                 </div>
                 <div class="col-md-5" id="sidebar">
                   <h3>核心能力分析圖</h3>
-                  <img src="http://tzuyulien.github.io/0310_101102034_course/hw02_1/r2.png" alt="核心能力分析圖">
+                  <img src="http://tzuyulien.github.io/0310_101102034_course/hw02_1/r2.png" alt="核心能力分析圖" class="thumbnail">
+
                   <h3>學生自評核心能力填答率: 0% (0/40)</h3>
                   <h3>能力項目說明</h3>
                   A.具備發現與解決問題之能力<br>
@@ -95,7 +116,13 @@
                   E.具備人文關懷與社會參與情操<br>
                   F.具備企劃整合與溝通能力<br>
                   <h3>授課方式比例圖</h3>
-                  <img src="http://tzuyulien.github.io/0310_101102034_course/hw02_1/r4.png" alt="授課方式比例圖">
+                  
+
+                  <img src="http://tzuyulien.github.io/0310_101102034_course/hw02_1/r4.png" alt="授課方式比例圖" class="img-thumbnail">
+                  <br>
+                  <br>
+
+
                 </div>
               </div>
             </div>
@@ -103,10 +130,23 @@
 
 
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <script src="js/jquery-1.11.2.js"></script>
+            
             <!-- Include all compiled plugins (below), or include individual files as needed -->
             <script src="js/bootstrap.min.js"></script>
           </body>
+
+          <footer>
+            <div id="footer">
+              <div class="container">
+              <br>
+              <a href="http://tzuyulien.github.io/0310_101102034_course/hw02_1/hw02_form.html" id="form" title="hw1_form">
+                加入課程</a>
+              All Rights Reserved.
+              </div>
+            </div>
+
+          </footer>
 
 
           </html>

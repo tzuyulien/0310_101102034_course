@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>課程資訊</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+
+          <style type="text/css">
+          #header{height: 120px; background: #fcb8ae}
+          #footer{height: 80px; background: #fcb8ae}
+          #wrap{
+            min-height: 100%;
+            height: auto;
+            margin: 0 auto -60px;
+            padding: 0 0 60px;
+          }
+
+          body{
+            height: 100%;
+            background-attachment: fixed;
+            background-repeat: repeat;
+            background-position:left top;
+            background-image: url(flora.png);
+            background-color: #fff;
+          } 
+
+
+
+          /* #dbody{width:350px; border:solid 2px #fff;}*/
+          </style>
+        </head>
+
+
+
+
+        <body>
+          <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+          </ul>
+          <div id="header">
+            <div class="container" style"border:solid 1px #000000">
+              <h1>加入課程<h1>
+              </div>
+            </div>
+            <div class="container";>
+              <div class="row">
+                <div class="col-md-7" id="content-body">
+                  <p>
+                   <label for="name">A. Your name*</label>
+                   <input type="text" name="name" id="name">
+                 </p>
+
+
+                 <p>
+                  <label for="sex">B. Your sex*</label>
+                  <input type="radio" name="sex" value="s0"> male
+                  <input type="radio" name="sex" value="s1"> female
+                </p>
+
+
+                <p>
+                  <label for="bday">C. Your birthday*</label>
+                  <input type="date" name="foo" value="d0"> 
+                </p>
+
+
+                <p>
+                  <label for="bday">D. Which form of transport do you use?*</label>
+                  <ol>
+                    <li>
+                      <input type="checkbox" name="like"
+                      id="walk" value="走">
+                      <label for="walk">walking</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="like"
+                      id="bike" value="腳踏車">
+                      <label for="bike">bike</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="like"
+                      id="motor" value="摩托車">
+                      <label for="motor">motorcycle</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="like"
+                      id="car" value="汽車">
+                      <label for="motor">car</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="like"
+                      id="bus" value="公車">
+                      <label for="bus">bus</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="like"
+                      id="metro" value="捷運">
+                      <label for="metro">metro</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="like"
+                      id="train" value="火車">
+                      <label for="train">train</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="like"
+                      id="airplane" value="飛機">
+                      <label for="airplane">airplane</label>
+                    </li>
+                  </ol>
+                </p>
+
+
+
+                <p>
+                  <label for="school">E. What is the highest level of education you have completed?*</label>
+                  <ol>  
+                    <li> <input type="radio" name="sch" value="sc0"> less than high school </li>
+                    <li> <input type="radio" name="sch" value="sc1"> high school or equivalent </li>
+                    <li> <input type="radio" name="sch" value="sc1"> attended college / university </li>
+                    <li> <input type="radio" name="sch" value="sc1"> associate degree </li>
+                    <li> <input type="radio" name="sch" value="sc1"> bachelor's degree </li>
+                    <li> <input type="radio" name="sch" value="sc1"> master's degree </li>
+                    <li> <input type="radio" name="sch" value="sc1"> professional degree </li>
+                    <li> <input type="radio" name="sch" value="sc1"> doctorate degree </li>
+                    <li> <input type="radio" name="sch" value="sc1"> I prefer not to answer </li>
+                  </ol>
+                </p>
+
+                <p>
+                  <label for="indus">F. Which industry do you work in or are most involved with?*;
+                  </label><br>
+                  <input type="text" name="indus" id="indus">
+
+                  <select>
+                    <option value="accounting">Accounting</option>
+                    <option value="write">Writing & Editing</option>
+                    <option value="animation">Animation</option>
+                    <option value="photography">Photography</option>
+                    <option value="graphic">Grafic Design</option>
+                    <option value="computer">Computer Software</option>
+                    <option value="computerGame">Computer Games</option>
+                    <option value="infor">Information Techonology & Services</option>
+
+                  </select>
+                </p>
+
+
+                <p>
+                  <label for="phone">G. Your Phone#</label>
+                  <input type="tel" name="phone" id="phone">
+                </p>
+
+                <p>
+                  <label for="email">H. Email address</label>
+                  <input type="email" name="email" id="email">
+                </p>
+
+                <p>
+                  <label for="web">I. Personal website</label>
+                  <input type="url" name="web" id="web">
+                </p>
+
+
+              </div>
+              <div class="col-md-5" id="sidebar">
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+          <script src="js/jquery-1.11.2.js"></script>
+
+          <!-- Include all compiled plugins (below), or include individual files as needed -->
+          <script src="js/bootstrap.min.js"></script>
+        </body>
+
+        <footer>
+          <div id="footer">
+            <div class="container">
+              <br>
+                All Rights Reserved.
+              </div>
+            </div>
+
+          </footer>
+
+
+          </html>
